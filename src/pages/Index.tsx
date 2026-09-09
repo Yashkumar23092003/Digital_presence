@@ -28,7 +28,7 @@ import {
   type Category,
   type Work,
 } from "@/data/portfolio";
-import portrait from "@/logo/Yash_formal.png";
+import portrait from "@/logo/yash_formal.png";
 import aboutPortrait from "@/logo/Yash.png";
 import iitLogo from "@/logo/IITD.png";
 
