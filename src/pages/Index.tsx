@@ -28,7 +28,8 @@ import {
   type Category,
   type Work,
 } from "@/data/portfolio";
-import portrait from "@/logo/Yash.png";
+import portrait from "@/logo/Yash_formal.png";
+import aboutPortrait from "@/logo/Yash.png";
 import iitLogo from "@/logo/IITD.png";
 
 function WorkCard({ item, index }: { item: Work; index: number }) {
@@ -422,7 +423,7 @@ export default function Index() {
           <div className="shell about-grid">
             <div className="about-photo">
               <img
-                src={portrait}
+                src={aboutPortrait}
                 alt="Yash Kumar on a suspension bridge in the mountains"
                 width="640"
                 height="640"

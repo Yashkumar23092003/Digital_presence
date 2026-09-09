@@ -175,7 +175,10 @@ a:focus-visible {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  padding: 2px;
+  background: #0b100e;
 }
 .intro-identity p {
   font-size: 12px;
