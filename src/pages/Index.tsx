@@ -493,18 +493,25 @@ export default function Index() {
 
         <section
           className="recognition shell"
-          aria-label="Selected recognition"
+          aria-labelledby="recognition-heading"
         >
-          <p className="eyebrow">Along the way</p>
-          <div>
+          <div className="recognition-intro">
+            <p className="eyebrow">Proof points</p>
+            <h2 id="recognition-heading">Selected achievements</h2>
+            <span>Signals of initiative, range, and follow-through.</span>
+          </div>
+          <div className="recognition-card">
+            <span className="recognition-index">01</span>
             <strong>Top 25 / 1,000+ teams</strong>
             <span>IIT Delhi FITT Hackathon</span>
           </div>
-          <div>
+          <div className="recognition-card">
+            <span className="recognition-index">02</span>
             <strong>Top 100</strong>
             <span>Samsung Solve for Tomorrow</span>
           </div>
-          <div>
+          <div className="recognition-card">
+            <span className="recognition-index">03</span>
             <strong>Business Head</strong>
             <span>Infinity Hyperloop / IIT Delhi</span>
           </div>

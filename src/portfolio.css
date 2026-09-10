@@ -669,26 +669,71 @@ a:focus-visible {
   margin-top: 15px;
 }
 .recognition {
-  padding-block: 39px;
+  padding-block: 45px;
   display: grid;
   grid-template-columns: 0.75fr 1.2fr 1fr 1.2fr;
-  gap: 25px;
+  gap: 18px;
   align-items: center;
 }
-.recognition > p {
-  color: var(--quiet);
+.recognition-intro {
+  padding-right: 18px;
 }
-.recognition strong {
+.recognition-intro .eyebrow {
+  color: var(--green);
+  margin-bottom: 10px;
+}
+.recognition-intro h2 {
+  font-family: var(--display);
+  font-size: 17px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.recognition-intro > span {
   display: block;
-  font-size: 12px;
-  font-weight: 500;
+  color: var(--quiet);
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 10px;
 }
-.recognition span {
+.recognition-card {
+  position: relative;
+  min-height: 92px;
+  padding: 18px 18px 16px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(84, 210, 154, 0.035);
+  transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+.recognition-card:hover {
+  border-color: rgba(84, 210, 154, .55);
+  background: rgba(84, 210, 154, .08);
+  transform: translateY(-2px);
+}
+.recognition-card strong {
+  display: block;
+  color: var(--green);
+  font-family: var(--display);
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+.recognition-card > span:not(.recognition-index) {
   display: block;
   font-size: 10px;
   line-height: 1.8;
   margin-top: 6px;
   color: var(--quiet);
+}
+.recognition-index {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  color: var(--quiet);
+  font-family: var(--mono);
+  font-size: 9px;
+  opacity: .7;
 }
 .contact-section {
   background: #171c19;
@@ -1199,9 +1244,11 @@ a:focus-visible {
     gap: 22px;
     padding-block: 35px;
   }
-  .recognition > div {
-    border-top: 1px solid var(--line);
-    padding-top: 16px;
+  .recognition-intro {
+    padding-right: 0;
+  }
+  .recognition-card {
+    min-height: auto;
   }
   .contact-section {
     padding-top: 35px;
