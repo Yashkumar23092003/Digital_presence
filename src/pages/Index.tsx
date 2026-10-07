@@ -196,7 +196,9 @@ export default function Index() {
         <section className="intro shell" aria-labelledby="intro-title">
           <div className="intro-top">
             <div className="intro-identity">
-              <img src={portrait} alt="Yash Kumar" width="72" height="72" />
+              <span className="portrait-frame">
+                <img src={portrait} alt="Yash Kumar" width="88" height="88" />
+              </span>
               <p>
                 Investment Analyst
                 <br />
