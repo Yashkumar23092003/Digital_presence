@@ -38,7 +38,7 @@ export const work: Work[] = [
     title: "Turning startup research into an investment view.",
     summary:
       "Evaluated startups across market, team, traction, and economics. Wrote investment memos for partner review.",
-    metric: "15+ startups",
+    metric: "25+ startups",
     metricLabel: "evaluated for the investment team",
     role: "Investment Analyst",
     period: "Apr 2025 - Present",
@@ -175,7 +175,7 @@ export const experience = [
     period: "Apr 2025 - Present",
     location: "Venture capital",
     description:
-      "Evaluated 15+ startups and wrote investment memos for partner review. Re-engaged 10+ portfolio founders, built a RAG-powered pitch-deck analyser, and managed a portfolio startup acquisition through stakeholder coordination, documentation, and execution.",
+      "Evaluated 25+ startups and wrote investment memos for partner review. Re-engaged 10+ portfolio founders, built a RAG-powered pitch-deck analyser, and managed a portfolio startup acquisition through stakeholder coordination, documentation, and execution.",
   },
   {
     company: "Superb Realty",

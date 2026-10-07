@@ -264,7 +264,7 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <strong>15+ startups</strong>
+              <strong>25+ startups</strong>
               <span>Evaluated at Superb Capital</span>
             </div>
             <div>

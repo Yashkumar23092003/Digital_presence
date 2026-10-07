@@ -162,7 +162,7 @@ const experiences: CompanyBlock[] = [
         problem:
           "No evidence that licensed counsellors would trust or adopt an AI tool in their practice - without clinical buy-in, the product had no credibility.",
         action:
-          "Onboarded 8+ licensed counsellors onto the platform and conducted 15+ interactive counselling sessions to validate the product in a real clinical context with domain experts.",
+          "Onboarded 8+ licensed counsellors onto the platform and conducted 25+ interactive counselling sessions to validate the product in a real clinical context with domain experts.",
         outcome: "Live MVP validated by licensed professionals - not just users, but the hardest critics in the room.",
         signal:
           "Went to the most demanding validators first - if counsellors trusted it, the market would follow.",
