@@ -142,8 +142,8 @@ a:focus-visible {
 }
 .menu-toggle {
   display: none;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   align-items: center;
   justify-content: center;
 }
@@ -172,16 +172,16 @@ a:focus-visible {
   gap: 15px;
 }
 .intro-identity img {
-  width: 56px;
-  height: 56px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
-  object-fit: contain;
-  object-position: center;
-  padding: 2px;
+  object-fit: cover;
+  object-position: center 23%;
+  padding: 0;
   background: #0b100e;
 }
 .intro-identity p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
   font-weight: 600;
 }
@@ -193,7 +193,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 11px;
+  font-size: 12px;
   color: #4f5b53;
 }
 .availability > span {
@@ -223,7 +223,7 @@ a:focus-visible {
   font-weight: 450;
 }
 .intro-copy {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: var(--quiet);
   max-width: 590px;
@@ -243,7 +243,7 @@ a:focus-visible {
   justify-content: center;
   gap: 25px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 550;
   transition:
     background 0.2s,
@@ -270,7 +270,7 @@ a:focus-visible {
 }
 .eyebrow {
   font-family: "DM Mono", monospace;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 1.6;
@@ -290,7 +290,7 @@ a:focus-visible {
 }
 .location {
   color: var(--quiet);
-  font-size: 10px;
+  font-size: 12px;
 }
 .proof-band {
   border-block: 1px solid var(--line);
@@ -314,7 +314,7 @@ a:focus-visible {
 }
 .proof-grid span {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.7;
   margin-top: 5px;
   color: var(--quiet);
@@ -355,7 +355,7 @@ a:focus-visible {
 }
 .section-heading > p {
   color: var(--quiet);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
   padding-bottom: 3px;
 }
@@ -370,10 +370,10 @@ a:focus-visible {
   align-items: center;
   gap: 9px;
   padding: 10px 14px;
-  min-height: 40px;
+  min-height: 44px;
   border: 1px solid transparent;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--quiet);
   transition: background 0.15s;
 }
@@ -413,7 +413,7 @@ a:focus-visible {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  font-size: 9px;
+  font-size: 11px;
   text-transform: uppercase;
   color: var(--green);
   font-family: "DM Mono", monospace;
@@ -423,7 +423,7 @@ a:focus-visible {
 }
 .work-company {
   margin-top: 25px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--quiet);
 }
 .work-item h3 {
@@ -434,7 +434,7 @@ a:focus-visible {
   margin-top: 9px;
 }
 .work-summary {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
   color: var(--quiet);
   margin-top: 13px;
@@ -457,7 +457,7 @@ a:focus-visible {
 }
 .work-bottom span {
   display: block;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.7;
   color: var(--quiet);
   margin-top: 4px;
@@ -467,9 +467,9 @@ a:focus-visible {
   display: inline-flex;
   gap: 7px;
   align-items: center;
-  font-size: 10px;
+  font-size: 12px;
   flex-shrink: 0;
-  min-height: 40px;
+  min-height: 44px;
 }
 .case-link:hover {
   color: var(--green);
@@ -527,7 +527,7 @@ a:focus-visible {
 .contribution-number {
   color: #a8c4b3;
   font-family: "DM Mono", monospace;
-  font-size: 10px;
+  font-size: 12px;
 }
 .contribution-grid h3 {
   font-size: 18px;
@@ -537,7 +537,7 @@ a:focus-visible {
 }
 .contribution-grid p {
   color: #bac7bf;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
   margin-top: 11px;
 }
@@ -599,7 +599,7 @@ a:focus-visible {
 }
 .experience-main > p:last-child {
   color: var(--quiet);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.8;
   margin-top: 10px;
   max-width: 640px;
@@ -635,7 +635,7 @@ a:focus-visible {
 }
 .about-copy > p:not(.eyebrow) {
   color: #58615b;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.85;
   margin-top: 18px;
 }
@@ -657,7 +657,7 @@ a:focus-visible {
   display: block;
 }
 .about-education span {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
   color: var(--quiet);
   display: block;
@@ -683,8 +683,8 @@ a:focus-visible {
   margin-bottom: 10px;
 }
 .recognition-intro h2 {
-  font-family: var(--display);
-  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
   line-height: 1.15;
   letter-spacing: -0.02em;
   margin: 0;
@@ -692,7 +692,7 @@ a:focus-visible {
 .recognition-intro > span {
   display: block;
   color: var(--quiet);
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.6;
   margin-top: 10px;
 }
@@ -713,7 +713,7 @@ a:focus-visible {
 .recognition-card strong {
   display: block;
   color: var(--green);
-  font-family: var(--display);
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 1.2;
   font-weight: 650;
@@ -721,7 +721,7 @@ a:focus-visible {
 }
 .recognition-card > span:not(.recognition-index) {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
   margin-top: 6px;
   color: var(--quiet);
@@ -731,7 +731,7 @@ a:focus-visible {
   top: 9px;
   right: 12px;
   color: var(--quiet);
-  font-family: var(--mono);
+  font-family: "DM Mono", monospace;
   font-size: 9px;
   opacity: .7;
 }
@@ -745,7 +745,7 @@ a:focus-visible {
   justify-content: space-between;
   gap: 20px;
   color: #b6c4ba;
-  font-size: 10px;
+  font-size: 12px;
 }
 .contact-top .eyebrow {
   color: #b6dfc7;
@@ -763,7 +763,7 @@ a:focus-visible {
   line-height: 1.25;
 }
 .contact-main p {
-  font-size: 12px;
+  font-size: 15px;
   color: #b3beb7;
   line-height: 1.9;
   margin-top: 18px;
@@ -832,7 +832,7 @@ a:focus-visible {
   display: inline-flex;
   gap: 8px;
   align-items: center;
-  font-size: 11px;
+  font-size: 12px;
   padding-block: 7px;
 }
 .contact-socials a:hover,
@@ -961,7 +961,7 @@ a:focus-visible {
     font-size: 15px;
   }
   .proof-grid span {
-    font-size: 9px;
+    font-size: 11px;
   }
   .work-item {
     padding: 23px;
@@ -1036,14 +1036,14 @@ a:focus-visible {
     padding-bottom: 36px;
   }
   .intro-identity img {
-    width: 46px;
-    height: 46px;
+    width: 56px;
+    height: 56px;
   }
   .intro-identity p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .availability {
-    font-size: 9px;
+    font-size: 11px;
     max-width: 130px;
     line-height: 1.7;
     align-items: baseline;
@@ -1063,7 +1063,7 @@ a:focus-visible {
     line-height: 1.3;
   }
   .intro-copy {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
     margin-top: 15px;
   }
@@ -1072,7 +1072,7 @@ a:focus-visible {
   }
   .button {
     gap: 18px;
-    font-size: 11px;
+    font-size: 13px;
     padding-inline: 16px;
   }
   .intro-note {
@@ -1102,7 +1102,7 @@ a:focus-visible {
     font-size: 16px;
   }
   .proof-grid span {
-    font-size: 9px;
+    font-size: 11px;
   }
   .proof-education {
     gap: 9px;
@@ -1133,7 +1133,7 @@ a:focus-visible {
     margin-bottom: 24px;
   }
   .work-filters button {
-    font-size: 10px;
+    font-size: 12px;
     padding: 9px 10px;
   }
   .work-grid {
@@ -1148,7 +1148,7 @@ a:focus-visible {
     font-size: 24px;
   }
   .work-summary {
-    font-size: 14px;
+    font-size: 15px;
   }
   .work-bottom {
     flex-direction: row;
@@ -1161,7 +1161,7 @@ a:focus-visible {
     max-width: 180px;
   }
   .case-link {
-    font-size: 9px;
+    font-size: 12px;
     gap: 4px;
   }
   .other-work {
@@ -1173,7 +1173,7 @@ a:focus-visible {
     gap: 17px;
   }
   .other-work a {
-    font-size: 10px;
+    font-size: 12px;
   }
   .contribution-band {
     padding-block: 45px;
@@ -1266,7 +1266,7 @@ a:focus-visible {
     font-size: 30px;
   }
   .contact-main p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .contact-socials {
     margin-top: 16px;
@@ -1300,10 +1300,15 @@ a:focus-visible {
     padding-right: 8px;
   }
   .case-dialog .case-description {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media (max-width: 380px) {
+  .intro-top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
   .intro h1 {
     font-size: 44px;
   }
@@ -1314,7 +1319,7 @@ a:focus-visible {
     gap: 9px;
   }
   .availability {
-    max-width: 112px;
+    max-width: none;
   }
   .work-item {
     padding: 19px;
@@ -1365,6 +1370,7 @@ body { background: #0b100e; color: var(--ink); }
 .desktop-nav, .header-contact { color: #d8e1da; }
 .desktop-nav a:hover, .text-link:hover, .header-contact:hover { color: var(--green); }
 .intro-identity p span, .intro-note .eyebrow, .location, .section-heading > p, .work-company, .work-summary, .experience-date, .experience-date span + span, .experience-main > p:last-child, .about-photo p, .about-copy > p:not(.eyebrow), .recognition > p, .recognition span { color: var(--quiet); }
+.availability { color: var(--quiet); }
 .intro-identity p, .intro-note p, .experience-main h3, .experience-role { color: var(--ink); }
 .proof-band { background: #141c17; border-color: var(--line); }
 .proof-grid > div:not(:first-child) { border-left-color: var(--line); }

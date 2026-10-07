@@ -196,7 +196,7 @@ export default function Index() {
         <section className="intro shell" aria-labelledby="intro-title">
           <div className="intro-top">
             <div className="intro-identity">
-              <img src={portrait} alt="Yash Kumar" width="56" height="56" />
+              <img src={portrait} alt="Yash Kumar" width="72" height="72" />
               <p>
                 Investment Analyst
                 <br />
@@ -216,7 +216,7 @@ export default function Index() {
               <h2>
                 A founder's perspective.
                 <br />
-                An operator's follow-through.
+                An operator's <span className="whitespace-nowrap">follow-through.</span>
               </h2>
               <p className="intro-copy">
                 At Superb Capital, I evaluate startups, work with portfolio
@@ -245,7 +245,7 @@ export default function Index() {
                 <br />
                 Investment research & deal support
                 <br />
-                Founder programs & community
+                Ambitious, high-ownership work
               </p>
               <span className="location">Mumbai-based / Flexible on location</span>
             </div>
@@ -275,6 +275,42 @@ export default function Index() {
             </div>
           </div>
         </div>
+
+        <section className="contribution-band">
+          <div className="shell">
+            <p className="eyebrow">The work I want to do next</p>
+            <h2>
+              Close to founders.
+              <br />
+              <span>Useful to the team.</span>
+            </h2>
+            <div className="contribution-grid">
+              <div>
+                <span className="contribution-number">01</span>
+                <h3>Founder support & execution</h3>
+                <p>
+                  Work closely with founders, turn ambiguous priorities into a plan, and stay with the details through delivery.
+                </p>
+                <span className="role-label">Founder's Office</span>
+              </div>
+              <div>
+                <span className="contribution-number">02</span>
+                <h3>Ambitious, high-ownership work</h3>
+                <p>
+                  Take on difficult, meaningful problems, move with urgency, and own the work from the first question through the final outcome.
+                </p>
+              </div>
+              <div>
+                <span className="contribution-number">03</span>
+                <h3>Investment research & deal support</h3>
+                <p>
+                  Find and evaluate promising companies, structure the research, and make the investment team's work easier.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
 
         <section id="work" className="section shell">
           <div className="section-heading">
@@ -342,41 +378,6 @@ export default function Index() {
               >
                 Superb Capital <ArrowUpRight size={14} />
               </a>
-            </div>
-          </div>
-        </section>
-
-        <section className="contribution-band">
-          <div className="shell">
-            <p className="eyebrow">The work I want to do next</p>
-            <h2>
-              Close to founders.
-              <br />
-              <span>Useful to the team.</span>
-            </h2>
-            <div className="contribution-grid">
-              <div>
-                <span className="contribution-number">01</span>
-                <h3>Founder support & execution</h3>
-                <p>
-                  Work closely with founders, turn ambiguous priorities into a plan, and stay with the details through delivery.
-                </p>
-                <span className="role-label">Founder's Office</span>
-              </div>
-              <div>
-                <span className="contribution-number">02</span>
-                <h3>Investment research & deal support</h3>
-                <p>
-                  Find and evaluate promising companies, structure the research, and make the investment team's work easier.
-                </p>
-              </div>
-              <div>
-                <span className="contribution-number">03</span>
-                <h3>Founder programs & community</h3>
-                <p>
-                  Build engaging founder experiences and own the coordination, communication, and follow-through behind them.
-                </p>
-              </div>
             </div>
           </div>
         </section>
