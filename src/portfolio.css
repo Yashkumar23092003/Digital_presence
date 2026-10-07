@@ -185,7 +185,7 @@ a:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(2) translateY(18%);
+  transform: scale(1.45) translateY(10%);
 }
 .intro-identity p {
   font-size: 13px;
